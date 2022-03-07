@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     dispatch(data());
-  }, []);
+  },[]);
 
   return <img src={users && users.message} alt="" />;
 };
